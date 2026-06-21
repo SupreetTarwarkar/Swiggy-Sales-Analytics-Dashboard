@@ -8,12 +8,12 @@ An end-to-end Power BI analytics solution built on Swiggy order and restaurant d
 
 ## Tech Stack
 
-* Power BI
-* SQL
-* Power Query
-* DAX
-* Data Modeling
-* Data Visualization
+- Power BI
+- SQL
+- Power Query
+- DAX
+- Data Modeling
+- Data Visualization
 
 ---
 
@@ -29,57 +29,56 @@ The dataset contains restaurant information, orders, sales, ratings, food catego
 
 ### Business Overview Analysis
 
-* Total Orders Tracking
-* Total Sales Analysis
-* Average Sales per Order
-* Rating Performance Monitoring
-* Day-wise Rating Trend Analysis
-* Week-wise Rating Trend Analysis
-* Month-wise Rating Trend Analysis
-* Food Type Performance Comparison
-* Restaurant Rating Analysis
-* State-wise Rating Analysis
+- Total Orders Tracking
+- Total Sales Analysis
+- Average Sales per Order
+- Rating Performance Monitoring
+- Day-wise Rating Trend Analysis
+- Week-wise Rating Trend Analysis
+- Month-wise Rating Trend Analysis
+- Food Type Performance Comparison
+- Restaurant Rating Analysis
+- State-wise Rating Analysis
 
 ### Restaurant Analytics
 
-* Top 10 Restaurants by Orders
-* Top 10 Restaurants by Sales
-* Top 10 Restaurants by Average Sales Order
-* Top 10 Restaurants by Average Rating
-* Dynamic filtering by:
-
-  * Month
-  * State
-  * City
-  * Price Range
-  * Food Type
-  * Week Day
+- Top 10 Restaurants by Orders
+- Top 10 Restaurants by Sales
+- Top 10 Restaurants by Average Sales Order
+- Top 10 Restaurants by Average Rating
+- Dynamic filtering by:
+  - Month
+  - State
+  - City
+  - Price Range
+  - Food Type
+  - Week Day
 
 ### State Analytics
 
-* Top 10 States by Orders
-* Top 10 States by Sales
-* Top 10 States by Average Sales Order
-* Top 10 States by Average Rating
-* State-wise performance benchmarking
-* Geographic performance comparison
+- Top 10 States by Orders
+- Top 10 States by Sales
+- Top 10 States by Average Sales Order
+- Top 10 States by Average Rating
+- State-wise Performance Benchmarking
+- Geographic Performance Comparison
 
 ### Drill-Down Navigation
 
-* State → City → Location hierarchy
-* State → City → Location → Restaurant hierarchy
-* Interactive exploration of restaurant coverage
+- State → City → Location Hierarchy
+- State → City → Location → Restaurant Hierarchy
+- Interactive Exploration of Restaurant Coverage
 
 ---
 
 ## Business Impact & Insights
 
-* Identified top-performing restaurants based on orders and revenue contribution.
-* Enabled comparison of restaurant performance using sales, ratings, and average order value metrics.
-* Highlighted high-performing states contributing maximum sales and orders.
-* Provided visibility into customer rating behavior across restaurants and regions.
-* Enabled management to analyze food category preferences through Veg vs Non-Veg performance tracking.
-* Improved decision-making through interactive filtering and location-level drill-down analysis.
+- Identified top-performing restaurants based on orders and revenue contribution.
+- Enabled comparison of restaurant performance using sales, ratings, and average order value metrics.
+- Highlighted high-performing states contributing maximum sales and orders.
+- Provided visibility into customer rating behavior across restaurants and regions.
+- Enabled management to analyze food category preferences through Veg vs Non-Veg performance tracking.
+- Improved decision-making through interactive filtering and location-level drill-down analysis.
 
 ---
 
@@ -87,74 +86,51 @@ The dataset contains restaurant information, orders, sales, ratings, food catego
 
 ### Landing Page
 
-Navigation page providing access to:
-
-* Business Overview
-* Restaurant Analytics
-* State Analytics
+![Landing Page](Images/1.%20Landing%20Page.png)
 
 ### Business Overview
 
-Tracks overall business KPIs, sales performance, order metrics, rating trends, food category insights, and regional performance.
+![Business Overview](Images/2.%20Business%20Overview.png)
 
 ### Restaurant Analytics
 
-Analyzes Top 10 restaurant performance based on:
-
-* Orders
-* Sales
-* Average Sales Order
-* Ratings
+![Restaurant Analytics](Images/3.%20Restaurant%20Analytics.png)
 
 ### State Analytics
 
-Analyzes Top 10 state performance based on:
-
-* Orders
-* Sales
-* Average Sales Order
-* Ratings
-
-### State List
-
-Hierarchical drill-down view:
-State → City → Location
-
-### Restaurant List
-
-Hierarchical drill-down view:
-State → City → Location → Restaurant
+![State Analytics](Images/4.%20State%20Analytics.png)
 
 ---
 
 ## Dataset
 
-Store all dataset files inside:
+Dataset files are available in the Dataset folder:
 
-Dataset/
+- dim_date.csv
+- dim_dish.csv
+- dim_location.csv
+- dim_restaurant.csv
+- fact_orders.csv
 
 ---
 
 ## SQL Scripts
 
-Store all SQL scripts inside:
+SQL scripts are available in the SQL folder:
 
-SQL/
+- data_preparation.sql
 
 Includes:
-
-* Schema Creation
-* Data Cleaning
-* Data Transformation
-* Date Dimension Creation
-* Food Type Classification Logic
+- Schema Creation
+- Data Cleaning
+- Data Transformation
+- Date Dimension Creation
+- Food Type Classification Logic
 
 ---
 
 ## Power BI Report
 
-Store Power BI report inside:
+Power BI report is available in the PBIX folder:
 
-PBIX/
-
-Swiggy Report.pbix
+- Swiggy_Sales_Analytics_Dashboard.pbix
