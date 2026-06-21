@@ -1,80 +1,160 @@
-# Swiggy Sales Analytics Dashboard
+# Swiggy Sales & Restaurant Analytics Dashboard
 
-## Project Overview
+## Short Description
 
-End-to-end restaurant and food delivery analytics solution developed using Microsoft Fabric and Power BI. The dashboard analyzes order volume, revenue trends, customer behavior, restaurant performance, delivery efficiency, and operational metrics to generate actionable business insights.
+An end-to-end Power BI analytics solution built on Swiggy order and restaurant data. The dashboard provides business-level performance monitoring, restaurant performance analysis, state-wise sales insights, and location-level exploration through interactive visualizations and drill-down capabilities.
 
-## Objective
-
-- Analyze order volume and revenue trends
-- Monitor restaurant performance
-- Identify customer ordering patterns
-- Analyze delivery efficiency and fulfillment performance
-- Generate business insights from food delivery operations
+---
 
 ## Tech Stack
 
-- Microsoft Fabric
-- Power BI
-- Power Query
-- DAX
-- Data Modeling
-- SQL
-- Excel
+* Power BI
+* SQL
+* Power Query
+* DAX
+* Data Modeling
+* Data Visualization
+
+---
 
 ## Data Source
 
-- Orders Dataset
-- Customers Dataset
-- Restaurants Dataset
-- Delivery Dataset
+Swiggy Restaurant & Order Dataset
 
-## Dashboard Features
+The dataset contains restaurant information, orders, sales, ratings, food categories, geographical hierarchy (State → City → Location), and pricing details used for business and performance analysis.
 
-### Executive Overview
+---
 
-- Total Revenue
-- Total Orders
-- Total Customers
-- Average Order Value
+## Features / Highlights
 
-### Sales Analytics
+### Business Overview Analysis
 
-- Revenue Trends
-- Order Trends
-- Revenue by City
-
-### Customer Analytics
-
-- Customer Segmentation
-- Customer Spending Patterns
-- Repeat vs New Customers
+* Total Orders Tracking
+* Total Sales Analysis
+* Average Sales per Order
+* Rating Performance Monitoring
+* Day-wise Rating Trend Analysis
+* Week-wise Rating Trend Analysis
+* Month-wise Rating Trend Analysis
+* Food Type Performance Comparison
+* Restaurant Rating Analysis
+* State-wise Rating Analysis
 
 ### Restaurant Analytics
 
-- Top 10 Restaurants
-- Restaurant Revenue Analysis
-- Restaurant Rating Analysis
-- Average Order Value by Restaurant
+* Top 10 Restaurants by Orders
+* Top 10 Restaurants by Sales
+* Top 10 Restaurants by Average Sales Order
+* Top 10 Restaurants by Average Rating
+* Dynamic filtering by:
 
-### Delivery Analytics
+  * Month
+  * State
+  * City
+  * Price Range
+  * Food Type
+  * Week Day
 
-- Delivery Time Analysis
-- Order Fulfillment Trends
-- Delivery Performance Monitoring
+### State Analytics
 
-## Business Insights
+* Top 10 States by Orders
+* Top 10 States by Sales
+* Top 10 States by Average Sales Order
+* Top 10 States by Average Rating
+* State-wise performance benchmarking
+* Geographic performance comparison
 
-The dashboard helps identify top-performing restaurants, customer ordering behavior, delivery bottlenecks, and revenue growth opportunities to support business decision-making.
+### Drill-Down Navigation
+
+* State → City → Location hierarchy
+* State → City → Location → Restaurant hierarchy
+* Interactive exploration of restaurant coverage
+
+---
+
+## Business Impact & Insights
+
+* Identified top-performing restaurants based on orders and revenue contribution.
+* Enabled comparison of restaurant performance using sales, ratings, and average order value metrics.
+* Highlighted high-performing states contributing maximum sales and orders.
+* Provided visibility into customer rating behavior across restaurants and regions.
+* Enabled management to analyze food category preferences through Veg vs Non-Veg performance tracking.
+* Improved decision-making through interactive filtering and location-level drill-down analysis.
+
+---
 
 ## Dashboard Screenshots
 
-### Executive Overview
+### Landing Page
 
-### Sales Analytics
+Navigation page providing access to:
 
-### Customer Analytics
+* Business Overview
+* Restaurant Analytics
+* State Analytics
+
+### Business Overview
+
+Tracks overall business KPIs, sales performance, order metrics, rating trends, food category insights, and regional performance.
 
 ### Restaurant Analytics
 
-### Delivery Analytics
+Analyzes Top 10 restaurant performance based on:
+
+* Orders
+* Sales
+* Average Sales Order
+* Ratings
+
+### State Analytics
+
+Analyzes Top 10 state performance based on:
+
+* Orders
+* Sales
+* Average Sales Order
+* Ratings
+
+### State List
+
+Hierarchical drill-down view:
+State → City → Location
+
+### Restaurant List
+
+Hierarchical drill-down view:
+State → City → Location → Restaurant
+
+---
+
+## Dataset
+
+Store all dataset files inside:
+
+Dataset/
+
+---
+
+## SQL Scripts
+
+Store all SQL scripts inside:
+
+SQL/
+
+Includes:
+
+* Schema Creation
+* Data Cleaning
+* Data Transformation
+* Date Dimension Creation
+* Food Type Classification Logic
+
+---
+
+## Power BI Report
+
+Store Power BI report inside:
+
+PBIX/
+
+Swiggy Report.pbix
