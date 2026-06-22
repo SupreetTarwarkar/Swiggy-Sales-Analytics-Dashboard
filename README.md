@@ -50,12 +50,12 @@ Food delivery platforms generate large volumes of restaurant and order data ever
 * Average Sales Order Value
 * Total Ratings
 * Average Rating
-* Day-wise Rating Trend
-* Week-wise Rating Trend
-* Month-wise Rating Trend
+* Daily Order Trend
+* Weekly Order Trend
+* Monthly Order Trend
 * Food Type Analysis (Veg vs Non-Veg)
-* Restaurant Rating Analysis
-* State-wise Rating Analysis
+* Top Restaurants by Orders
+* Top States by Orders
 
 #### Restaurant Analytics
 
@@ -75,12 +75,12 @@ Food delivery platforms generate large volumes of restaurant and order data ever
 
 #### State Analytics
 
-* Top 10 States by Orders
-* Top 10 States by Sales
-* Top 10 States by Average Sales Order
-* Top 10 States by Average Rating
-* State-wise Performance Benchmarking
-* Geographic Performance Comparison
+* State-wise Orders Analysis
+* State-wise Sales Analysis
+* Average Sales Order Analysis
+* Average Rating Analysis
+* State → City → Restaurant Drill-Down
+* Geographic Performance Benchmarking
 
 #### Drill-Down Analysis
 
@@ -90,18 +90,14 @@ Food delivery platforms generate large volumes of restaurant and order data ever
 
 ### Business Impact & Insights
 
-* Identified top-performing restaurants based on order volume and revenue contribution.
-* Enabled comparison of restaurant performance using sales, ratings, and average order value metrics.
-* Highlighted high-performing states contributing maximum sales and orders.
-* Provided visibility into customer rating behavior across restaurants and regions.
-* Analyzed food category preferences through Veg and Non-Veg performance tracking.
-* Supported strategic business decisions through interactive filtering and location-level analysis.
+* Analyzed **197.43K orders** generating **₹53.01M sales** with an average order value of **₹268.51**.
+* Identified **Karnataka** as the highest-performing state with **20.1K orders** and **₹5.46M sales**.
+* Found that **Veg orders accounted for 71.66% (141.48K)** of total orders compared to **28.34% (55.95K)** Non-Veg orders.
+* Identified **McDonald's (13.5K orders)** and **KFC (13.0K orders)** as the top order-generating restaurant brands.
+* Tracked performance across **28 states** using sales, order volume, average order value, and customer rating metrics.
+* Enabled restaurant and location-level benchmarking through interactive drill-down analysis.
 
 ## Dashboard Screenshots
-
-### Landing Page
-
-![Landing Page](Images/1.%20Landing%20Page.png)
 
 ### Business Overview
 
