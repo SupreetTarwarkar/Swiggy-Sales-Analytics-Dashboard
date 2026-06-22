@@ -2,7 +2,7 @@
 
 ## Short Description / Purpose
 
-End-to-end restaurant and sales analytics solution developed using Power BI and SQL. The dashboard analyzes Swiggy restaurant and order data to uncover sales trends, restaurant performance, customer rating patterns, food category preferences, and state-wise business insights.
+End-to-end restaurant and sales analytics solution developed using Microsoft Fabric, Power BI and SQL. The dashboard analyzes Swiggy restaurant and order data to uncover sales trends, restaurant performance, customer rating patterns, food category preferences, and state-wise business insights.
 
 ## Tech Stack
 
@@ -99,6 +99,11 @@ Food delivery platforms generate large volumes of restaurant and order data ever
 
 ## Dashboard Screenshots
 
+
+### Landing Page
+
+![Landing Page](Images/1.%20Landing%20Page.png)
+
 ### Business Overview
 
 ![Business Overview](Images/2.%20Business%20Overview.png)
@@ -144,3 +149,17 @@ The complete Power BI dashboard file is included in this repository.
 * Swiggy_Sales_Analytics_Dashboard.pbix
 
 The PBIX file can be downloaded to explore the report, data model, measures, and visualizations.
+
+Project Walkthrough Video
+
+A complete walkthrough of the Microsoft Fabric and Power BI implementation can be viewed using the link below:
+
+https://drive.google.com/file/d/106pDAdHWdq1CCn8hrlPOAlMqK4rjgzQB/view?usp=sharing
+
+The walkthrough covers:
+
+Lakehouse
+Warehouse
+SQL Transformations
+Semantic Model
+Power BI Dashboard Development
