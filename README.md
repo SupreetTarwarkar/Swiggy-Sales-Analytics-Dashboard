@@ -150,7 +150,7 @@ The complete Power BI dashboard file is included in this repository.
 
 The PBIX file can be downloaded to explore the report, data model, measures, and visualizations.
 
-Project Walkthrough Video
+## Project Walkthrough Video
 
 A complete walkthrough of the Microsoft Fabric and Power BI implementation can be viewed using the link below:
 
