@@ -66,12 +66,12 @@ Food delivery platforms generate large volumes of restaurant and order data ever
 * Restaurant Performance Benchmarking
 * Dynamic Filtering by:
 
-  * Month
-  * State
-  * City
-  * Price Range
-  * Food Type
-  * Week Day
+* Month
+* State
+* City
+* Price Range
+* Food Type
+* Week Day
 
 #### State Analytics
 
@@ -134,11 +134,11 @@ The project includes SQL scripts used for data preparation and transformation.
 
 * data_preparation.sql
 
-  * Schema Creation
-  * Data Cleaning
-  * Data Transformation
-  * Date Dimension Creation
-  * Food Type Classification Logic
+* Schema Creation
+* Data Cleaning
+* Data Transformation
+* Date Dimension Creation
+* Food Type Classification Logic
 
 SQL files are available in the SQL folder of this repository.
 
