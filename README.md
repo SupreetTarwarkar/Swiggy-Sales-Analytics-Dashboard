@@ -99,7 +99,6 @@ Food delivery platforms generate large volumes of restaurant and order data ever
 
 ## Dashboard Screenshots
 
-
 ### Landing Page
 
 ![Landing Page](Images/1.%20Landing%20Page.png)
