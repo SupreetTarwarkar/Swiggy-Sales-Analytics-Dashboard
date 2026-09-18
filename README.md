@@ -1,10 +1,14 @@
-# Swiggy Sales & Restaurant Analytics Dashboard
+<div align="center"><h1>Swiggy Sales & Restaurant Analytics Dashboard</h1></div>
 
-## Short Description / Purpose
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/section-line.svg" width="82%" alt="section divider"/></div>
+<div align="center"><b>SHORT DESCRIPTION / PURPOSE</b></div>
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/skill-line-white.svg" width="62%" alt=""/></div>
 
 End-to-end restaurant and sales analytics solution developed using Microsoft Fabric, Power BI and SQL. The dashboard analyzes Swiggy restaurant and order data to uncover sales trends, restaurant performance, customer rating patterns, food category preferences, and state-wise business insights.
 
-## Tech Stack
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/section-line.svg" width="82%" alt="section divider"/></div>
+<div align="center"><b>TECH STACK</b></div>
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/skill-line-white.svg" width="62%" alt=""/></div>
 
 The dashboard was built using the following tools and technologies:
 
@@ -14,7 +18,9 @@ The dashboard was built using the following tools and technologies:
 * DAX (Data Analysis Expressions) : Measures and business calculations
 * Data Modeling : Relationship management and analytical structure
 
-## Data Source
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/section-line.svg" width="82%" alt="section divider"/></div>
+<div align="center"><b>DATA SOURCE</b></div>
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/skill-line-white.svg" width="62%" alt=""/></div>
 
 The dashboard uses a Swiggy restaurant and order dataset containing:
 
@@ -26,13 +32,17 @@ The dashboard uses a Swiggy restaurant and order dataset containing:
 * Price range information
 * Restaurant performance metrics
 
-## Features / Highlights
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/section-line.svg" width="82%" alt="section divider"/></div>
+<div align="center"><b>FEATURES / HIGHLIGHTS</b></div>
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/skill-line-white.svg" width="62%" alt=""/></div>
 
-### Business Problem
+<div align="center"><b>Business Problem</b></div>
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/skill-line-white.svg" width="62%" alt=""/></div>
 
 Food delivery platforms generate large volumes of restaurant and order data every day. However, identifying top-performing restaurants, understanding customer preferences, tracking sales performance, and evaluating regional business growth can be challenging without a centralized analytics solution.
 
-### Goal of the Dashboard
+<div align="center"><b>Goal of the Dashboard</b></div>
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/skill-line-white.svg" width="62%" alt=""/></div>
 
 * Monitor sales performance
 * Analyze restaurant performance
@@ -41,7 +51,8 @@ Food delivery platforms generate large volumes of restaurant and order data ever
 * Identify top-performing restaurants
 * Support data-driven business decisions
 
-### Walk Through of Key Visuals
+<div align="center"><b>Walk Through of Key Visuals</b></div>
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/skill-line-white.svg" width="62%" alt=""/></div>
 
 #### Business Overview
 
@@ -88,7 +99,8 @@ Food delivery platforms generate large volumes of restaurant and order data ever
 * State → City → Location → Restaurant Hierarchy
 * Interactive Restaurant Coverage Exploration
 
-### Business Impact & Insights
+<div align="center"><b>Business Impact & Insights</b></div>
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/skill-line-white.svg" width="62%" alt=""/></div>
 
 * Analyzed **197.43K orders** generating **₹53.01M sales** with an average order value of **₹268.51**.
 * Identified **Karnataka** as the highest-performing state with **20.1K orders** and **₹5.46M sales**.
@@ -97,26 +109,33 @@ Food delivery platforms generate large volumes of restaurant and order data ever
 * Tracked performance across **28 states** using sales, order volume, average order value, and customer rating metrics.
 * Enabled restaurant and location-level benchmarking through interactive drill-down analysis.
 
-## Dashboard Screenshots
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/section-line.svg" width="82%" alt="section divider"/></div>
+<div align="center"><b>DASHBOARD SCREENSHOTS</b></div>
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/skill-line-white.svg" width="62%" alt=""/></div>
 
-
-### Landing Page
+<div align="center"><b>Landing Page</b></div>
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/skill-line-white.svg" width="62%" alt=""/></div>
 
 ![Landing Page](Images/1.%20Landing%20Page.png)
 
-### Business Overview
+<div align="center"><b>Business Overview</b></div>
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/skill-line-white.svg" width="62%" alt=""/></div>
 
 ![Business Overview](Images/2.%20Business%20Overview.png)
 
-### Restaurant Analytics
+<div align="center"><b>Restaurant Analytics</b></div>
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/skill-line-white.svg" width="62%" alt=""/></div>
 
 ![Restaurant Analytics](Images/3.%20Restaurant%20Analytics.png)
 
-### State Analytics
+<div align="center"><b>State Analytics</b></div>
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/skill-line-white.svg" width="62%" alt=""/></div>
 
 ![State Analytics](Images/4.%20State%20Analytics.png)
 
-## Dataset
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/section-line.svg" width="82%" alt="section divider"/></div>
+<div align="center"><b>DATASET</b></div>
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/skill-line-white.svg" width="62%" alt=""/></div>
 
 The dashboard uses restaurant and order datasets containing:
 
@@ -128,7 +147,9 @@ The dashboard uses restaurant and order datasets containing:
 
 Dataset files are available in the Dataset folder of this repository.
 
-## SQL Scripts
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/section-line.svg" width="82%" alt="section divider"/></div>
+<div align="center"><b>SQL SCRIPTS</b></div>
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/skill-line-white.svg" width="62%" alt=""/></div>
 
 The project includes SQL scripts used for data preparation and transformation.
 
@@ -142,7 +163,9 @@ The project includes SQL scripts used for data preparation and transformation.
 
 SQL files are available in the SQL folder of this repository.
 
-## Power BI Report
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/section-line.svg" width="82%" alt="section divider"/></div>
+<div align="center"><b>POWER BI REPORT</b></div>
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/skill-line-white.svg" width="62%" alt=""/></div>
 
 The complete Power BI dashboard file is included in this repository.
 
@@ -150,7 +173,9 @@ The complete Power BI dashboard file is included in this repository.
 
 The PBIX file can be downloaded to explore the report, data model, measures, and visualizations.
 
-## Project Walkthrough Video
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/section-line.svg" width="82%" alt="section divider"/></div>
+<div align="center"><b>PROJECT WALKTHROUGH VIDEO</b></div>
+<div align="center"><img src="https://raw.githubusercontent.com/SupreetTarwarkar/SupreetTarwarkar/main/Profile-Assets/skill-line-white.svg" width="62%" alt=""/></div>
 
 A complete walkthrough of the Microsoft Fabric and Power BI implementation can be viewed using the link below:
 
